@@ -5,12 +5,25 @@
 
 body {
     background-image: url("../images/bg.png");
+    font-family: news-gothic-std, sans-serif;
+    color: yellow;
     font-size: 32px;
     line-height: 50px;
 }
 
 .fighter {
     border: solid 2px greenyellow;
-    height: 300px;
-    width: 300px;
+    height: 180px;
+    width: 304px;
+    position: relative;
+}
+
+.name {
+    background-color: black;
+    color: yellow;
+    font-family: news-gothic-std, sans-serif;
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    z-index: 10;
 }
