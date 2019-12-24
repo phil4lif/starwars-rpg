@@ -5,4 +5,12 @@
 
 body {
     background-image: url("../images/bg.png");
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.fighter {
+    border: solid 2px greenyellow;
+    height: 300px;
+    width: 300px;
 }
