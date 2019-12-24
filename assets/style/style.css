@@ -13,9 +13,11 @@ body {
 
 .fighter {
     border: solid 2px greenyellow;
-    height: 180px;
+    height: 220px;
     width: 304px;
     position: relative;
+    background-color:black;
+    inset-block: left;
 }
 
 .name {
@@ -24,6 +26,21 @@ body {
     font-family: news-gothic-std, sans-serif;
     position: absolute;
     left: 50px;
-    bottom: 10px;
+    bottom: 40px;
     z-index: 10;
+}
+
+.hitpoints {
+    font-size: 26px;
+    position: absolute;
+    left: 5px;
+    bottom: 1px;
+}
+
+.title {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 48px;
+    font-weight: 700;
 }
