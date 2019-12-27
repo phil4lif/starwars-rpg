@@ -1,3 +1,23 @@
+//global variables for the game
+//objects for fighter statistics
+var rey = {
+    hp: 150,
+    initialAttack: 6
+};
+var maul = {
+    hp: 120,
+    initialAttack: 8
+};
+var yoda={
+    hp: 160,
+    initialAttack: 9
+};
+var kylo = {
+    hp:140
+    initialAttack: 5
+};
+
+
 //the user will choose their character and then it moves to the your character area
 
 
