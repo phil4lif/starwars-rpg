@@ -13,13 +13,16 @@ var yoda={
     initialAttack: 9
 };
 var kylo = {
-    hp:140
+    hp:140,
     initialAttack: 5
 };
 
 
 //the user will choose their character and then it moves to the your character area
-
+$(".fighter").on("click", function () {
+    var fighter = $(this).attr("data-fighter")
+    
+})
 
 // the characters that were not chosen will move to the choose your opponent area
 
